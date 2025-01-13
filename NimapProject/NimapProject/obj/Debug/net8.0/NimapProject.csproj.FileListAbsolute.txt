@@ -1,0 +1,7 @@
+C:\Users\tecdi\source\repos\NimapProject\NimapProject\obj\Debug\net8.0\NimapProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tecdi\source\repos\NimapProject\NimapProject\obj\Debug\net8.0\NimapProject.AssemblyInfoInputs.cache
+C:\Users\tecdi\source\repos\NimapProject\NimapProject\obj\Debug\net8.0\NimapProject.AssemblyInfo.cs
+C:\Users\tecdi\source\repos\NimapProject\NimapProject\obj\Debug\net8.0\NimapProject.csproj.CoreCompileInputs.cache
+C:\Users\tecdi\source\repos\NimapProject\NimapProject\obj\Debug\net8.0\NimapProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tecdi\source\repos\NimapProject\NimapProject\obj\Debug\net8.0\NimapProject.RazorAssemblyInfo.cache
+C:\Users\tecdi\source\repos\NimapProject\NimapProject\obj\Debug\net8.0\NimapProject.RazorAssemblyInfo.cs

@@ -1,0 +1,50 @@
+﻿@model MVC.Models.CustomerModel
+<div>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <h4>Customers</h4>
+        <hr />
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th>ProductId</th>
+                <th>ProductName</th>
+                <th>CategoryId</th>
+                <th>CategoryName</th>
+            </tr>
+            @foreach (var data in Model.Datas)
+            {
+                <tr>
+                    <td>@data.ProductId</td>
+                    <td>@data.ProductName</td>
+                    <td>@data.CategoryId</td>
+                    <td>@data.CategoryName</td>
+                </tr>
+            }
+        </table>
+        <br />
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                @for (int i = 1; i <= Model.PageCount; i++)
+                {
+                    <td>
+                        @if (i != Model.CurrentPageIndex)
+                        {
+                            <a href="javascript:PagerClick(@i);">@i</a>
+                        }
+                        else
+                        {
+                            <span>@i</span>
+                        }
+                    </td>
+                }
+            </tr>
+        </table>
+        <input type="hidden" id="hfCurrentPageIndex" name="currentPageIndex" />
+    }
+    <script type="text/javascript">
+        function PagerClick(index) {
+            document.getElementById("hfCurrentPageIndex").value = index;
+            document.forms[0].submit();
+        }
+    </script>
+</div>
